@@ -13,8 +13,9 @@ GenericEntity : "{09D6A1C9543E4A95}Prefabs/Items/Core/Backpack_Base.et" {
   SCR_UniversalInventoryStorageComponent "{5222CB03A40528FA}" {
    Attributes SCR_ItemAttributeCollection "{5222CB039E9715D1}" {
     ItemDisplayName UIInfo "{5222CB03904B414C}" {
-     Name "AAAAAAAA"
-     Description "BBBBBBBBB"
+     Name "Mochila ALICE"
+     Description ""
+     Icon "{8C4A565F613A3A1F}MOCHILAS/ALICE/ALICE2.edds"
     }
     CustomAttributes {
      PreviewRenderAttributes "{52BCBDD2B54658EC}" {
@@ -31,7 +32,13 @@ GenericEntity : "{09D6A1C9543E4A95}Prefabs/Items/Core/Backpack_Base.et" {
     }
    }
    WornModel "{AD560ADB3B8B102E}Assets/Items/Equipment/Backpacks/Backpack_ALICE_Medium/Backpack_ALICE_Medium.xob"
+   WornMaterialsOverride {
+    "{7F191E2A93FBECF0}MOCHILAS/ALICE/MATERIALALICE.emat"
+   }
    ItemModel "{B982CAE1F85001D0}Assets/Items/Equipment/Backpacks/Backpack_ALICE_Medium/Backpack_ALICE_Medium_item.xob"
+   ItemMaterialsOverride {
+    "{7F191E2A93FBECF0}MOCHILAS/ALICE/MATERIALALICE.emat"
+   }
    SoundInt 810
   }
   ActionsManagerComponent "{511E9C6ADE70F786}" {
