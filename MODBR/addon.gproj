@@ -1,0 +1,8 @@
+GameProject {
+ ID "MODBR"
+ GUID "5C9E69DD7B09F2C0"
+ TITLE "MODBR"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}
